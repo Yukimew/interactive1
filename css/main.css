@@ -1,0 +1,22 @@
+/* reset styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* begin styles */
+  
+  body {
+    color: fuschia;
+  }
+
+  h1 {
+    color: white;
+    background: grey;
+  }
+
+  p {
+      width: 50%;
+      background:grey;
+  }
