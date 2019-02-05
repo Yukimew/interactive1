@@ -8,11 +8,19 @@
   /* begin styles */
   
   body {
-    background-color: grey;
+    background-color:white;
   }
 
   h1 {
     font: Georgia;
     color:olivedrab;
     background-color:white;
+  }
+
+  h3 {
+    color: gray;
+  }
+
+  li {
+    color: gray;
   }
