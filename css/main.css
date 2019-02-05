@@ -8,15 +8,13 @@
   /* begin styles */
   
   body {
-    color: fuschia;
+    color: grey;
+  }
+
+  title {
+    font:Garamond; 
   }
 
   h1 {
-    color: white;
-    background: grey;
-  }
-
-  p {
-      width: 50%;
-      background:grey;
+    font: Georgia;
   }
