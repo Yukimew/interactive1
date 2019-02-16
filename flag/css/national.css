@@ -1,0 +1,127 @@
+
+/* reset styles */
+* {
+    margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+    background: black;
+}
+
+/* flag canvas */
+#canvas {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    background: white;
+}
+
+/* shapes */
+#one {
+    width: 250px;
+    height: 150px;
+    background:#b61034;
+    border-radius: 0 0 150px 0;
+    
+    /* position the circle in the center of the flag */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#two {
+    width: 250px;
+    height: 150px;
+    background:#b61034;
+    border-radius: 0 0 0 150px;
+    
+    /* position the circle in the center of the flag */
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+
+#three {
+    width: 250px;
+    height: 150px;
+    background:#b61034;
+    border-radius: 150px 0 0 0;
+    
+    /* position the circle in the center of the flag */
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+#four {
+    width: 250px;
+    height: 150px;
+    background:#b61034;
+    border-radius: 0 150px 0 0;
+    
+    /* position the circle in the center of the flag */
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+#star {
+    width:50px;
+    height:50px;
+    background:#118543;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    position: absolute;
+    top: 125px;
+    left: 225px;
+}
+
+#five {
+    width:30px;
+    height:30px;
+    background:white;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#six {
+    width:30px;
+    height:30px;
+    background:white;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    position: absolute;
+    top: 0px;
+    left: 470px;
+}
+
+#last {
+    width:30px;
+    height:30px;
+    background:white;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+
+#seven {
+    width:30px;
+    height:30px;
+    background:white;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+    position: absolute;
+    top: 270px;
+    left: 470px;
+}
