@@ -56,3 +56,7 @@ a:hover {
   color: white;
   transition-duration: 2s;
 }
+
+ul li {
+  list-style-type: none;
+}
