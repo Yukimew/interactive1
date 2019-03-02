@@ -1,26 +1,58 @@
 /* reset styles */
 
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* begin styles */
-  
-  body {
-    background-color:white;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  h1 {
-    font: Georgia;
-    color:olivedrab;
-    background-color:white;
-  }
+/* begin styles */
 
-  h3 {
-    color: gray;
-  }
+body {
+  background-color: white;
+  margin: 30px;
+}
 
-  li {
-    color: gray;
-  }
+.bg-img {
+  background-image: url("../image/nature.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+p {
+  color: #68dad6;
+  margin: 10px;
+}
+
+h1 {
+  font: Georgia;
+  color: #68dad6;
+  margin: 10px;
+}
+
+h3 {
+  color: white;
+  margin: 10px;
+}
+
+li {
+  color: gray;
+  margin: 10px;
+}
+
+a,
+a:visited {
+  color: #68dad6;
+}
+
+a:hover {
+  color: white;
+  transition-duration: 2s;
+}
