@@ -3,47 +3,57 @@ title {
     font-size: 36px；
 }
 
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
-    text-align:center;
-    margin:0 auto;
+    margin: 0 auto;
     width: 650px;
-    background-color:olivedrab;
+    background-color: olivedrab;
     color: white;
     font-size: 22px;
-  }
+}
 
-  .container {
-      max-width: 650px;
-      margin: 0 auto;
-  }
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 
-  #toc {
-      position: fixed;
-      top: 1em;
-      left: 1em;
-      background-color: white;
-      opacity: 0.5;
-      color:olivedrab;
-      padding: 1em;
-      font-size: 0.7em;
-  }
+#toc {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    background-color: white;
+    opacity: 0.5;
+    color: olivedrab;
+    padding: 1em;
+    font-size: 0.7em;
+}
 
 a {
-    color:olivedrab;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
-#toc a{
-    color:olivedrab;
+#toc a {
+    color: olivedrab;
     text-decoration: none;
 }
 
-#toc a:hover{
+#toc a:hover {
     color: black;
 }
 
@@ -59,15 +69,12 @@ h1 {
     font-size: 3em;
     line-height: 1.1;
     margin-bottom: 2em;
-  }
-  
-  h2 {
+}
+
+h2 {
     background-color: white;
     padding: 0.5em;
     font-weight: normal;
     color: orange;
     margin-top: 2em;
-  }
-
-
-
+}
