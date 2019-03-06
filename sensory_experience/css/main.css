@@ -48,6 +48,10 @@
 
 }
 
+#heart:hover {
+    opacity: 0.5;
+}
+
 body,
 html {
     height: 100%;
@@ -99,6 +103,7 @@ body {
 .text:hover {
     color: red;
     transition-duration: 2s;
+    text-shadow: 0px 0px 10px lightcoral;
 }
 
 @keyframes heartBeat {
