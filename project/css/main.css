@@ -340,21 +340,21 @@ h4:hover {
     }
 
     ul {
-        top: 100px;
+        top: 110px;
         width: 80px;
         font-size: 10px;
     }
 
     .intro {
         position: relative;
-        top: 100px;
+        top: 110px;
         margin: 5px;
         z-index: 2;
         float: right;
     }
 
     .container {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
 
