@@ -340,14 +340,14 @@ h4:hover {
     }
 
     ul {
-        top: 110px;
+        top: 115px;
         width: 80px;
         font-size: 10px;
     }
 
     .intro {
         position: relative;
-        top: 110px;
+        top: 115px;
         margin: 5px;
         z-index: 2;
         float: right;
