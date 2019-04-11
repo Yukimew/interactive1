@@ -322,7 +322,11 @@ h4:hover {
 }
 
 /* mobile */
-@media (max-width: 600px) {
+@media (max-width: 670px) {
+    h2 {
+        font-size: 20px;
+    }
+
     .img-lists {
         float: left;
         width: 100%;
@@ -337,7 +341,7 @@ h4:hover {
 
     ul {
         top: 100px;
-        width: 100px;
+        width: 80px;
         font-size: 10px;
     }
 
@@ -353,9 +357,9 @@ h4:hover {
         padding-top: 50px;
     }
 
-    h2 {
-        font-size: 30px;
-    }
+
+
+
 
 
 
