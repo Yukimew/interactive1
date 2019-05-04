@@ -1,0 +1,207 @@
+body {}
+
+.letter {
+	display: block;
+	position: relative;
+	margin: 20px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.letter div {
+	background: black;
+}
+
+.letter div.empty {
+	background: transparent;
+}
+
+
+.wide {
+	position: relative;
+	margin: 20px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+.punctuation {
+	position: relative;
+	margin: 5px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
+	grid-gap: 0px 0px;
+}
+
+
+
+/* wide letter pieces */
+
+.wide div {
+	background: black;
+}
+
+.wide div.empty {
+	background: transparent;
+}
+
+
+
+/* punctuation letter pieces */
+
+.punctuation div {
+	background: black;
+}
+
+.punctuation div.empty {
+	background: transparent;
+}
+
+
+
+.letter:hover>.empty {
+	background: lightgray;
+}
+
+.wide:hover>.empty {
+	background: lightgray;
+}
+
+.letter:hover .fill:nth-child(odd) {
+	background: rgb(37, 37, 37);
+}
+
+.wide:hover .fill:nth-child(odd) {
+	background: rgb(37, 37, 37);
+}
+
+div:hover~div {
+	background: transparent;
+}
+
+.empty:hover~.empty {
+	background: white;
+}
+
+.fill:hover~.fill {
+	background: #9f9f9f;
+}
+
+.letter:hover .empty:nth-child(odd) {
+	background: darkgray;
+}
+
+.wide:hover .empty:nth-child(odd) {
+	background: darkgray;
+}
+
+
+.letter:hover .fill:nth-child(odd) {
+	background: #656565;
+}
+
+.wide:hover .fill:nth-child(odd) {
+	background: #656565;
+}
+
+.empty:hover {
+	background: #ededed;
+}
+
+@keyframes fade {
+	from {
+		opacity: 1.0;
+	}
+
+	50% {
+		opacity: 0.4;
+	}
+
+	to {
+		opacity: 1.0;
+	}
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: 1.0;
+	}
+
+	50% {
+		opacity: 0.4;
+	}
+
+	to {
+		opacity: 1.0;
+	}
+}
+
+.letter:hover>.empty {
+	color: #fff;
+	animation: fade 600ms infinite;
+	-webkit-animation: fade 600ms infinite;
+}
+
+.letter:hover .empty:nth-child(odd) {
+	color: black;
+	animation: fate 1200ms infinite;
+	-webkit-animation: fade 1200ms infinite;
+}
+
+.fill:hover~.fill {
+	color: grey;
+	animation: fade 600ms infinite;
+	-webkit-animation: fade 600ms infinite;
+}
+
+.letter:active {
+	filter: invert(70%);
+}
+
+.wide:hover>.empty {
+	color: lightgrey;
+	animation: fade 600ms infinite;
+	-webkit-animation: fade 600ms infinite;
+}
+
+.wide:hover .empty:nth-child(odd) {
+	color: black;
+	animation: fate 1200ms infinite;
+	-webkit-animation: fade 1200ms infinite;
+}
+
+.wide:active {
+	filter: invert(70%);
+}
+
+.punctuation:hover>.empty {
+	color: lightgrey;
+	animation: fade 600ms infinite;
+	-webkit-animation: fade 600ms infinite;
+}
+
+.punctuation:hover .empty:nth-child(odd) {
+	color: black;
+	animation: fate 1200ms infinite;
+	-webkit-animation: fade 1200ms infinite;
+}
+
+.punctuation:active {
+	filter: invert(70%);
+}

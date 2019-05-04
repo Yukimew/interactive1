@@ -1,15 +1,99 @@
-body {}
+body {
+	margin: 20px;
+}
 
-.letter {
+
+
+
+.discription {
+	margin: 20px;
+	position: relative;
+	background: white;
+
+
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: 'VT323', monospace;
+	font-size: 50px;
+	margin: 10px;
+}
+
+p {
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.container {
+	position: relative;
+	margin: auto;
+	background: black;
+}
+
+.typeface {
+	margin: 20px;
+}
+
+.error,
+.area,
+.page {
 	display: block;
+	width: 80%;
+	white-space: nowrap;
+}
+
+.container .letter div,
+.container .wide div {
+	background: white;
+}
+
+.container .letter {
 	position: relative;
 	margin: 20px;
 
-	display: grid;
-	float: left;
+	display: inline-grid;
 
 	grid-template-columns: 20px 20px 20px 20px 20px 20px;
 	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+
+.area .letter {
+	position: relative;
+	margin: 0px;
+	display: inline-grid;
+
+	grid-template-columns: 40px 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
+}
+
+.error .letter {
+	display: block;
+	position: relative;
+	margin: 0px;
+	/* float: left; */
+
+	display: inline-grid;
+
+	grid-template-columns: 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+.page .letter {
+	display: block;
+	position: relative;
+	margin: 0px;
+	/* float: left; */
+
+	display: inline-grid;
+
+	grid-template-columns: 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
 	grid-gap: 0px 0px;
 }
 
@@ -25,15 +109,15 @@ body {}
 }
 
 
-.wide {
+.page .wide {
 	position: relative;
-	margin: 20px;
+	margin: 0px;
 
-	display: grid;
-	float: left;
+	display: inline-grid;
 
-	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
-	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
 	grid-gap: 0px 0px;
 }
 
@@ -41,13 +125,15 @@ body {}
 	position: relative;
 	margin: 5px;
 
-	display: grid;
-	float: left;
+	display: inline-grid;
+
 
 	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
 	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
 	grid-gap: 0px 0px;
 }
+
+
 
 
 
@@ -204,4 +290,75 @@ div:hover~div {
 
 .punctuation:active {
 	filter: invert(70%);
+}
+
+/* letter pieces */
+
+.typeface .letter {
+	display: block;
+	position: relative;
+	margin: 20px;
+
+	display: inline-grid;
+
+	grid-template-columns: 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.letter div {
+	background: black;
+}
+
+.letter div.empty {
+	background: transparent;
+}
+
+
+.wide {
+	position: relative;
+	margin: 20px;
+
+	display: inline-grid;
+
+	grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+.punctuation {
+	position: relative;
+	margin: 5px;
+
+	display: inline-grid;
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
+	grid-gap: 0px 0px;
+}
+
+
+
+/* wide letter pieces */
+
+.wide div {
+	background: black;
+}
+
+.wide div.empty {
+	background: transparent;
+}
+
+
+
+/* punctuation letter pieces */
+
+.punctuation div {
+	background: black;
+}
+
+.punctuation div.empty {
+	background: transparent;
 }

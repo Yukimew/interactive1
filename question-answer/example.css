@@ -26,9 +26,3 @@ a:hover {
 .outer-shape:hover>.inner-shape {
     background: pink;
 }
-
-
-
-.outer-shape:hover .inner-shape:nth-child(odd) {
-    background: orange;
-}
